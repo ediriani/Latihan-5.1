@@ -11,3 +11,8 @@ def cek_angka(a, b, c):
         return True  # Ada dua parameter yang jika dijumlahkan sama dengan parameter lainnya
     else:
         return False  # Tidak ada dua parameter yang jika dijumlahkan sama dengan parameter lainnya
+
+# Contoh penggunaan
+print(cek_angka(1, 2, 3))  # True (1+2=3)
+print(cek_angka(1, 2, 4))  # False (tidak ada yang dijumlahkan sama)
+print(cek_angka(1, 1, 3))  # False (nilai tidak berbeda semua)
